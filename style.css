@@ -1,0 +1,565 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+    background: #001027;
+    background: radial-gradient(553.84% 87.82% at 49.93% 28.43%, black 10%, orange 100%);
+}
+h1 {
+    text-align: center;
+font-family: Montserrat;
+font-size: 96px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+background: orange;    
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.back_0 {
+    background: url(imggg3.jpg), lightgray 100% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.9);
+}
+a {
+    text-decoration: none;
+}
+input {
+    box-sizing: border-box;
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+header div a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-name h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110.6%; /* 66.36px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.hero-name h2 {
+    color: orange;
+    margin: 0;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110.6%; /* 66.36px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.hero-name h1 {
+    text-align: center;
+    margin: 0;
+
+    font-family: Montserrat;
+    font-size: 139px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 73.6%; /* 102.304px */
+    letter-spacing: 5.56px;
+    text-transform: uppercase;
+    background: radial-gradient(553.84% 87.82% at 49.93% 28.43%, orange 0%, black 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-name p {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+.hero-name{
+    padding: 222px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-name img {
+    margin: 0 auto;
+    width: 30%;
+}
+.a-container {
+    width: 90%;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.b-block {
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.all-tariffs {
+    margin-top: 80px;
+    display: flex;
+    gap: 5%;
+}
+.tariff {
+    width: 25%;
+    height: 600px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    backdrop-filter: blur(25px);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.trf-name {
+    color: #FFF;
+text-align: left;
+margin-bottom: 0;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+.trf-price {
+    color: #FFF;
+    margin: 0;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.trf-services p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 8px 0;
+width: 90%;
+ /* 100% */
+}
+.trf-services div svg {
+    margin-right: 20px;
+}
+.trf-services div {
+    display: flex;
+    align-items: center;
+}
+.rooms {
+    display: flex; 
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5%;
+}
+.room {
+    border-radius: 27px;
+border: 1px solid #ffffff13;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+backdrop-filter: blur(25px);
+    padding: 30px;
+    width: 25%;
+}
+.room-name {
+    text-align: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px; /* 116.667% */
+}
+.room img {
+    width: 100%;
+}
+.room-desc {
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h3 {
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5%;
+}
+.review {
+    padding: 30px;
+    border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+backdrop-filter: blur(25px);
+}
+.r-txt {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.author {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+footer {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ghg {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.ghg2 {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+footer a {
+    color: white;
+}
+.logo p {
+    background: #ffff;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 116.6%; /* 41.976px */
+letter-spacing: 1.44px;
+text-transform: uppercase;
+}
+.plash {
+    width: 100%;
+}
+#lll{
+    width: 100%;
+}
+@media (max-width: 650px) {
+    header div:nth-child(1){
+        display: none;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    
+    .hero-name h2 {
+        font-size: 36px;
+    }
+    .hero-name h1 {
+        font-size: 60px;
+
+    }
+    .hero-name p {
+        font-size: 16px;
+    }
+    .hero-name img {
+        width: 60%;
+    }
+    .b-block {
+        font-size: 16px;
+    }
+    #lll {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .all-tariffs {
+        flex-direction: column;
+    }
+    .tariff {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .plash {
+        width: 100%;
+    }
+    .rooms {
+        flex-direction: column;
+    }
+    .room {
+        padding: 15px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .room-name {
+        font-size: 24px;
+    }
+    .room-desc {
+        font-size: 20px;
+    }
+    .reviews {
+        flex-direction: column;
+    }
+    .review{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .ghg {
+        opacity: 0.5;
+        text-align: center;
+        align-items: center;
+    }
+    .ghg2 {
+        opacity: 0.5;
+
+        text-align: center;
+        align-items: center;
+    }
+    .a-container {
+        padding: 40px 0;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}
+
+.rooms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background: black;
+    padding: 16px 20px;
+    color: white;
+}
+
+.room img:hover{
+    scale: 1.2;
+    transition: 3.5s;
+}
+
+.room img{
+    scale: 1;
+    transition: 3.5s;
+}
+
+/* styles.css */
+
+
+
+.a-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.all-tariffs {
+    display: flex; /* Расположение элементов в строку */
+    justify-content: space-around; /* Выравнивание элементов по горизонтали с промежутками */
+    flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
+}
+
+.tariff {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8); /* Прозрачно черный цвет карточек */
+    color: white; /* Белый цвет текста */
+    text-align: center; /* Центрирование текста внутри карточки */
+}
+
+.card {
+    position: relative;
+    color: #fff;
+}
+
+.trf-price{
+    color: #FFF;
+}
+
+.trf-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.trf-price {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.toggle-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.trf-services {
+    margin-top: 15px;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0; /* Start collapsed */
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    padding: 0; /* No padding initially */
+}
+
+.zxc {
+    display: flex;
+    align-items: center;
+}
+
+.zxc svg {
+    margin-right: 10px;
+}
+
+.toggle-btn:hover {
+    background-color: rgba(255, 165, 0, 0.2);
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tariff:hover {
+    background-color: rgba(255, 165, 0, 0.2); /* Увеличение прозрачности при наведении */
+    transition: background-color 1s;
+}
+
+
+.room {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8); /* Прозрачно черный цвет карточек */
+    color: white; /* Белый цвет текста */
+    text-align: center; /* Центрирование текста внутри карточки */
+}
+
+
+.room:hover{
+    background-color: rgba(255, 165, 0, 0.2); /* Увеличение прозрачности при наведении */
+    transition: background-color 1s;   
+}
+
+.review{
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8); /* Прозрачно черный цвет карточек */
+    color: white; /* Белый цвет текста */
+    text-align: center; /* Центрирование текста внутри карточки */
+}
+
+.review:hover{
+    background-color: rgba(255, 165, 0, 0.2); /* Увеличение прозрачности при наведении */
+    transition: background-color 1s;   
+}
+
+
+.room, .review {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.room.visible, .review.visible {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+.back_0 {
+    background-attachment: fixed; /* Параллакс-эффект */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
